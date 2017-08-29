@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url("../fonts/PTSans/PTN77F.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+html,
+body {
+  padding:0;
+  margin:0;
+  overflow: auto;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    background: #000 url(../img/backgro.jpg) no-repeat 50% 0;
+    font-weight: bold;
+}
+
+.feature-item h3 {
+  font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    color: #f7f4f1;
+    font-weight: bold;
+
+} 
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.main-header {
+  width: 2500px;
+  height: 73px;
+  background: #000;
+  font-family: "PT Sans Narrow";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f7f4f1;
+}
+
+.site-navigation {
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+header img {
+  padding-left: 1098px;
+  padding-top: 132px;
+}
+
+
+.site-navigation li {
+  display:inline-block;
+        }
+
+.site-navigation a {
+  display:block;
+  padding:23px 20px;
+  margin-right:-0.2em;
+  text-decoration:none;
+  color:#ffffff;
+}
+
+.user-navigation li {
+  padding: 20px 1693px;
+  margin-left: 0px;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.features-list {
+ padding:0;
+    margin:50px 0;
+    list-style:none;
+    color:#fff;
+}
+
+
+
+main {
+
+}

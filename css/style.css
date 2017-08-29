@@ -1,0 +1,474 @@
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url("../fonts/PTSans/PTN77F.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+html,
+body {
+  padding:0;
+  margin:0;
+  overflow: auto;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 247, 244, 241 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* index */
+
+/* Главное меню */
+
+.main-header {
+  width: 100%;
+  height: 73px;
+  background: rgb( 0, 0, 0 );
+
+}
+
+.site-navigation {
+  width:940px;
+  margin:0 auto;
+  padding:0 10px;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+
+}
+
+li {
+  display:inline-block;
+}
+
+.site-navigation a {
+  display: block;
+  padding: 23px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans Narrow";
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.user-navigation a {
+float: right;
+padding: 23px 20px;
+font-size: 16px;
+line-height: 20px;
+color: rgb( 255, 255, 255 );
+font-weight: bold;
+font-family: "PT Sans Narrow";
+text-transform: uppercase;
+text-decoration: none;
+}
+
+/* Нужно подключить логотип входа*/
+
+
+/* Причины обратиться в барбершоп */
+
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 247, 244, 241 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+} 
+
+/*
+.feature-item h3::after {
+  content: ""
+  
+}
+*/
+
+.feature-item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 247, 244, 241 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* Разделы: */
+
+/* Новости */
+
+.news h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.news p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.news-item span {
+  text-transform: lowercase;
+}
+
+time {
+  font-size: 14px;
+  line-height: auto;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ a {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*Фотогалерея*/
+
+.gallery h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.gallery p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.gallery button {
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+
+}
+
+/*Контактная информация*/
+
+.contacts h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts .contacts-button-map {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+}
+
+.contacts .contacts-button-con {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+}
+
+/* Записаться */
+
+.appointment h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.appointment p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.appointment input {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 140px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.appointment button {
+  width: 300px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Подвал */
+
+.main-footer p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.main-footer a {
+  color: rgb( 255, 255, 255 );
+  text-decoration: underline;
+}
+
+.footer-social b {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-copyright a {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+  text-decoration: none;
+}
+
+/* Форма "Личный кабинет" */
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.modal p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase; 
+}
+
+.modal a {
+  text-decoration: underline;
+}
+
+.login-icon-user {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  width: 300px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.login-icon-password {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  width: 300px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.login-form button {
+  width: 300px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+ /* CATALOG-ITEM */
+
+/* Главное меню */
+
+.site-navigation-item {
+  width:940px;
+  margin:0 auto;
+  padding:0 10px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.site-navigation-item a {
+  display: block;
+  padding: 23px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "PT Sans Narrow";
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+/* Основная часть */
+
+.conteiner h1 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.description p:nth-child(3) {
+  color: rgb( 174, 174, 174 );
+}
+
+.product-price b {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 109px;
+  height: 43px;
+  background-color: rgb( 229, 229, 229 );
+  color: rgb( 0, 0, 0 );
+}
+
+.product-price a {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 78px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+  }
+
+.description h3 {
+    font-size: 24px;
+  line-height: 30px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
+.description li {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+}
+
