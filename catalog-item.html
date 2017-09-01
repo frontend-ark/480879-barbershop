@@ -18,9 +18,9 @@
 						<li><a href="catalog.html">Магазин</a></li>
 						<li><a href="contacts.html">Контакты</a></li>
 					</ul>
-					<ul class="user-navigation">
-						<li class="login-link">Вход</li>
-					</ul>
+					<div class="user-navigation">
+						<a class="login-link" href="enter.html">Вход</a>
+					</div>
 				</nav>
 			</header>
 			<main class="conteiner">
@@ -85,23 +85,30 @@
 				<p>Введите свой логин и пароль</p>
 				<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 					<p>
-						<input class="login-icon-user" type="text" name="login" placeholder="Логин">
+						<label for="login-text" class="visually-hidden">Логин</label>
+						<input id="login-text" type="text" name="login" value="" placeholder="Логин" class="login-icon-user">
 					</p>
 					<p>
-						<input class="login-icon-password" type="password" name="password" placeholder="Пароль">
+						<label for="pass" class="visually-hidden">Пароль</label>
+						<input id="pass" type="password" name="password" value="" placeholder="Пароль" class="login-icon-password">
 					</p>
 					<p class="lodin-password-info">
-						<input type="checkbox" name="remember" class="visually-hidden">Запомните меня
+						<label class="login-checkbox">
+							<input type="checkbox" name="remember" checked><!--убрала класс visually-hidden т.к. не видела элемента, но потом придется добавить, поскольку говорят что так удобнее будет его стилизовать-->
+							<span class="checkbox-indicator">Запомните меня</span>
+						</label>
 						<a class="restore" href="#">Я забыл пароль!</a>
 					</p>
 					<button class="button" type="submit">Войти</button>
 				</form>
-				<span class="modal-close">x</span>
+				<button class="modal-close" type="button">Закрыть</button>
 			</section>
 			<section class="modal modal-map">
 				<h2 class="visually-hidden">Как до нас добраться</h2>
-				<img src="img/map.png" width="1739" height="784" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
-				<a class="modal-close" href="#">x</a>
+				<p>
+				<img src="img/map.png" width="1739" height="784" alt="Офис компании по адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+				</p>
+				<button class="modal-close" type="button">Закрыть</button>
 			</section>
 		</body>
 </html>
