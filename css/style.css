@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "PT Sans Narrow";
-  src: url("../fonts/PTSans/PTN77F.ttf") format("truetype");
+  font-family: 'Conv_PTN77F';
+  src: url('fonts/PTN77F.eot');
+  src: local('☺'), url('fonts/PTN77F.woff') format('woff'), url('fonts/PTN77F.ttf') format('truetype'), url('fonts/PTN77F.svg') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: bold;
 }
 
 html,
@@ -17,7 +18,7 @@ body {
   line-height: 24px;
   color: rgb( 247, 244, 241 );
   font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   
 }
@@ -62,8 +63,7 @@ li {
   font-size: 16px;
   line-height: 20px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -75,8 +75,7 @@ padding: 23px 20px;
 font-size: 16px;
 line-height: 20px;
 color: rgb( 255, 255, 255 );
-font-weight: bold;
-font-family: "PT Sans Narrow";
+font-family: "PT Sans Narrow", "Arial", sans-serif;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -116,8 +115,7 @@ text-decoration: none;
   font-size: 30px;
   line-height: 42px;
   color: rgb( 247, 244, 241 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 
 } 
 
@@ -132,8 +130,7 @@ text-decoration: none;
   font-size: 14px;
   line-height: 24px;
   color: rgb( 247, 244, 241 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -146,8 +143,7 @@ text-decoration: none;
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -155,8 +151,7 @@ text-decoration: none;
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -168,16 +163,14 @@ time {
   font-size: 14px;
   line-height: auto;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
  a {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -188,8 +181,7 @@ time {
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -197,8 +189,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -209,8 +200,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 
 }
@@ -221,8 +211,7 @@ time {
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -230,8 +219,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -257,8 +245,7 @@ time {
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -267,8 +254,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -276,8 +262,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   width: 140px;
   height: 43px;
   border: 2px solid black;
@@ -291,8 +276,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -302,8 +286,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -316,8 +299,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -336,8 +318,7 @@ time {
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -345,8 +326,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase; 
 }
 
@@ -358,8 +338,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   width: 300px;
   height: 43px;
@@ -371,8 +350,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   width: 300px;
   height: 43px;
@@ -387,8 +365,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -411,8 +388,7 @@ time {
   font-size: 16px;
   line-height: 20px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -424,8 +400,7 @@ time {
   font-size: 30px;
   line-height: 42px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -433,8 +408,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -442,8 +416,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -455,8 +428,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   display: block;
   width: 109px;
@@ -469,8 +441,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   display: block;
   width: 78px;
@@ -483,8 +454,7 @@ time {
   font-size: 24px;
   line-height: 30px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -492,8 +462,7 @@ time {
   font-size: 14px;
   line-height: 24px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -505,8 +474,7 @@ time {
   font-size: 14px;
   line-height: 20px;
   color: rgb(171, 169, 167 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -516,8 +484,7 @@ time {
   font-size: 24px;
   line-height: 30px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -525,8 +492,7 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -537,8 +503,7 @@ time {
   font-size: 13px;
   line-height: 18px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -548,16 +513,14 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
 .catalog-item-title {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
@@ -569,8 +532,7 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   display: block;
   width: 109px;
@@ -583,8 +545,7 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   display: block;
   width: 78px;
@@ -596,8 +557,7 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 255, 255, 255 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: center;
   display: block;
@@ -610,8 +570,7 @@ time {
   font-size: 14px;
   line-height: 18px;
   color: rgb( 0, 0, 0 );
-  font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: center;
   display: block;
