@@ -1,0 +1,592 @@
+@font-face {
+  font-family: 'Conv_PTN77F';
+  src: url('fonts/PTN77F.eot');
+  src: local('☺'), url('fonts/PTN77F.woff') format('woff'), url('fonts/PTN77F.ttf') format('truetype'), url('fonts/PTN77F.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  padding:0;
+  margin:0;
+  overflow: auto;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 247, 244, 241 );
+  font-weight: bold;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  
+  background-color: #000000;
+  background-image: url(../img/backgro.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* index */
+
+/* Главное меню */
+
+.main-header {
+  width: 100%;
+  height: 73px;
+  background: rgb( 0, 0, 0 );
+
+}
+
+.site-navigation {
+  width:940px;
+  margin:0 auto;
+  padding:0 10px;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+
+}
+
+li {
+  display:inline-block;
+}
+
+.site-navigation a {
+  display: block;
+  padding: 23px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.user-navigation a {
+float: right;
+padding: 23px 20px;
+font-size: 16px;
+line-height: 20px;
+color: rgb( 255, 255, 255 );
+font-family: "PT Sans Narrow", "Arial", sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.main-header a:hover {
+  background-color: rgb( 36, 36, 36 );
+  color: rgb( 255, 255, 255 );
+}
+
+.site-navigation a:active {
+  background-color: rgb( 36, 36, 36 );
+  color: rgb( 0, 0, 0 );
+}
+
+.navigation-link {
+  position:relative;
+}
+
+.navigation-link:after {
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 4px;
+  background-color: rgb( 255, 255, 255 );
+  left: 0;
+  bottom: -5px;
+  left: 21px;
+}
+
+/* Нужно подключить логотип входа*/
+
+
+/* Преимущества */
+
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 247, 244, 241 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+
+} 
+
+/*
+.feature-item h3::after {
+  content: ""
+  
+}
+*/
+
+.feature-item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 247, 244, 241 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* Разделы: */
+
+/* Новости */
+
+.news h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.news p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.news-item span {
+  text-transform: lowercase;
+}
+
+time {
+  font-size: 14px;
+  line-height: auto;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+ a {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*Фотогалерея*/
+
+.gallery h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.gallery p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.gallery button {
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+
+}
+
+/*Контактная информация*/
+
+.contacts h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.contacts .contacts-button-map {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+}
+
+.contacts .contacts-button-con {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+}
+
+/* Записаться */
+
+.appointment h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+
+.appointment p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.appointment input {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  width: 140px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.appointment button {
+  width: 300px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+/* Подвал */
+
+.main-footer p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.main-footer a {
+  color: rgb( 255, 255, 255 );
+  text-decoration: underline;
+}
+
+.footer-social b {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.footer-copyright a {
+  display: block;
+  width: 140px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+  text-decoration: none;
+}
+
+/* Форма "Личный кабинет" */
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.modal p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase; 
+}
+
+.modal a {
+  text-decoration: underline;
+}
+
+.login-icon-user {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  width: 300px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.login-icon-password {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  width: 300px;
+  height: 43px;
+  border: 2px solid black;
+  padding-left: 15px;
+}
+
+.login-form button {
+  width: 300px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+ /* CATALOG-ITEM */
+
+/* Главное меню */
+
+.site-navigation-item {
+  width:940px;
+  margin:0 auto;
+  padding:0 10px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.site-navigation-item a {
+  display: block;
+  padding: 23px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+/* Основная часть */
+
+.conteiner h1 {
+  font-size: 30px;
+  line-height: 42px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.description p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.description p:nth-child(3) {
+  color: rgb( 174, 174, 174 );
+}
+
+.product-price b {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 109px;
+  height: 43px;
+  background-color: rgb( 229, 229, 229 );
+  color: rgb( 0, 0, 0 );
+}
+
+.product-price a {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 78px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  color: rgb( 255, 255, 255 );
+  }
+
+.description h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.description li {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+/* CATALOG */
+
+/* breadcrumbs */
+
+.сare-products {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(171, 169, 167 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+/* filters */
+
+.filter legend {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.filter-option {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.filter button {
+  width: 112px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+  font-size: 13px;
+  line-height: 18px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+/* goods */
+
+{
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.catalog-item-title {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.catalog-category {
+  text-transform: none;
+}
+
+.catalog-item-price b {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 109px;
+  height: 43px;
+  background-color: rgb( 229, 229, 229 );
+  color: rgb( 0, 0, 0 );
+}
+
+.catalog-item-price a {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 78px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+}
+
+.pagination-list a {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 255, 255, 255 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 43px;
+  height: 43px;
+  background-color: rgb( 0, 0, 0 );
+}
+
+.pagination-item-current a {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb( 0, 0, 0 );
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 43px;
+  height: 43px;
+  background-color: rgb( 255, 255, 255 );
+}
+
+
+
+
+
+
+
